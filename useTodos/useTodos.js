@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "../08-useReducer/todoReducer";
+import { todoReducer } from "./todoReducer";
 
 // Función que inicializa nuestro reducer. En algunos casos se puede hacer que venga previamente cargado
 const init = () => {
